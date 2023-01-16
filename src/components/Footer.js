@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -15,17 +16,17 @@ function Footer() {
             <h4>Premalinks</h4>
             <ul class="premalinks">
               <li>
-                <a href="/">Home</a>
+                <Link to="/">Home</Link>
               </li>
 
               <li>
-                <a href="/Compresspage">Compress</a>
+                <Link to="/Compresspage">Compress</Link>
               </li>
               <li>
-                <a href="/About">About</a>
+                <Link to="/About">About</Link>
               </li>
               <li>
-                <a href="/Contact">Contact</a>
+                <Link to="/Contact">Contact</Link>
               </li>
             </ul>
           </div>
