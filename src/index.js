@@ -6,6 +6,8 @@ import Compresspage from "./pages/Compresspage";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./components/home";
+import Contact from "./pages/Contact";
+import About from "./pages/About";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +18,16 @@ const router = createBrowserRouter([
   {
     path: "Compresspage",
     element: <Compresspage />,
+  },
+
+  {
+    path: "About",
+    element: <About />,
+  },
+
+  {
+    path: "Contact",
+    element: <Contact />,
   },
 ]);
 

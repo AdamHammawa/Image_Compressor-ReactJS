@@ -17,7 +17,10 @@ function Navbar() {
               <a href="/Compresspage">Compress</a>
             </li>
             <li>
-              <a href="contact.html">Contact</a>
+              <a href="/About">About</a>
+            </li>
+            <li>
+              <a href="/Contact">Contact</a>
             </li>
           </ul>
           <button id="open-menu-btn">
