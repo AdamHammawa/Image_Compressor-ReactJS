@@ -1,9 +1,10 @@
 import "../style.css";
 import React from "react";
-import { Button, Container, Grid, Image, Item } from "semantic-ui-react";
+import { Button, Grid, Image, Item } from "semantic-ui-react";
 import { useState } from "react";
 import imageCompression from "browser-image-compression";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 function Compresspage() {
   const [oImage, setoImage] = useState("");
@@ -44,7 +45,7 @@ function Compresspage() {
   return (
     <div className="App">
       <Navbar></Navbar>
-      <h1></h1>
+
       <section className="image_section">
         <Grid>
           <Grid.Column width={6}>
@@ -65,7 +66,6 @@ function Compresspage() {
               onChange={(e) => handle(e)}
             />
 
-            <h1></h1>
             {oImage && (
               <Button
                 onClick={(e) => {
@@ -77,7 +77,6 @@ function Compresspage() {
               </Button>
             )}
 
-            <h1></h1>
             {CompressedImage && (
               <Button>
                 <a href={CompressedImage} download={FileName}>
@@ -86,8 +85,6 @@ function Compresspage() {
                 </a>
               </Button>
             )}
-
-            <h1></h1>
           </Grid.Column>
 
           <Grid.Column width={6}>
@@ -101,6 +98,7 @@ function Compresspage() {
           </Grid.Column>
         </Grid>
       </section>
+      <Footer></Footer>
     </div>
   );
 }
