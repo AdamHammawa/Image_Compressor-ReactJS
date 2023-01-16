@@ -17,7 +17,6 @@ class Home extends React.Component {
                 You dont have to exhuast your storage, compress those images now
                 efficiently
               </p>
-
               <Link to="/Compresspage" class="btn btn-primary">
                 {" "}
                 Get Started
