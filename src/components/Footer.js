@@ -15,13 +15,17 @@ function Footer() {
             <h4>Premalinks</h4>
             <ul class="premalinks">
               <li>
-                <a href="index.html">Home</a>
+                <a href="/">Home</a>
+              </li>
+
+              <li>
+                <a href="/Compresspage">Compress</a>
               </li>
               <li>
-                <a href="about.html">About</a>
+                <a href="/About">About</a>
               </li>
               <li>
-                <a href="courses.html">Compress</a>
+                <a href="/Contact">Contact</a>
               </li>
             </ul>
           </div>
