@@ -6,9 +6,9 @@ function Navbar() {
     <div>
       <nav>
         <div class="container nav__container">
-          <a href="/">
+          <Link to="/">
             <h4>IMGCompress</h4>
-          </a>
+          </Link>
           <ul class="nav__menu">
             <li>
               <Link to="/">Home</Link>

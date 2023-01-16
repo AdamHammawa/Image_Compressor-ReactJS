@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import { Image } from "semantic-ui-react";
 import Footer from "./Footer";
+import { Link } from "react-router-dom";
 
 class Home extends React.Component {
   render() {
@@ -16,9 +17,11 @@ class Home extends React.Component {
                 You dont have to exhuast your storage, compress those images now
                 efficiently
               </p>
-              <a href="/Compresspage" class="btn btn-primary">
+
+              <Link to="/Compresspage" class="btn btn-primary">
+                {" "}
                 Get Started
-              </a>
+              </Link>
             </div>
             <div class="header__right">
               <div class="header__right-image">
@@ -37,9 +40,10 @@ class Home extends React.Component {
                 redundancy of the image data to be able to store or transmit
                 data in an efficient form.
               </p>
-              <a href="/Compresspage" class="btn">
+              <Link to="/Compresspage" class="btn btn-primary">
+                {" "}
                 Start Now
-              </a>
+              </Link>
             </div>
             <div class="categories__right">
               <article class="category">

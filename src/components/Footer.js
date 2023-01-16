@@ -35,7 +35,7 @@ function Footer() {
             <h4>Privacy</h4>
             <ul class="privacy">
               <li>
-                <a href="/Compresspage">Privacy Policy</a>
+                <a href="/">Privacy Policy</a>
               </li>
               <li>
                 <a href="/">Terms and Conditions</a>
