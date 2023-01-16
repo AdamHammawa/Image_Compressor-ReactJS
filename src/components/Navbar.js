@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -10,17 +11,17 @@ function Navbar() {
           </a>
           <ul class="nav__menu">
             <li>
-              <a href="/">Home</a>
+              <Link to="/">Home</Link>
             </li>
 
             <li>
-              <a href="/Compresspage">Compress</a>
+              <Link to="/Compresspage">Compress</Link>
             </li>
             <li>
-              <a href="/About">About</a>
+              <Link to="/About">About</Link>
             </li>
             <li>
-              <a href="/Contact">Contact</a>
+              <Link to="/Contact">Contact</Link>
             </li>
           </ul>
           <button id="open-menu-btn">
